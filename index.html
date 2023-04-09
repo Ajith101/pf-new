@@ -11,7 +11,7 @@
     <header>
       <div class="container">
         <nav class="navigation">
-          <a href="" class="logo"><h1>Ajith</h1></a>
+          <a href="#home" class="logo"><h1>Ajith</h1></a>
 
           <div class="menu-btn">
             <span class="line top-line"></span>
@@ -20,37 +20,48 @@
           </div>
 
           <ul class="nav_menu">
-            <li class="nav_list"><a href="" class="nav_links">HOme</a></li>
-            <li class="nav_list"><a href="" class="nav_links">About</a></li>
-            <li class="nav_list"><a href="" class="nav_links">Projects</a></li>
-            <li class="nav_list"><a href="" class="nav_links">contact</a></li>
+            <li class="nav_list">
+              <a href="#home" class="nav_links active">HOme</a>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav_links">About</a>
+            </li>
+            <li class="nav_list">
+              <a href="#skills" class="nav_links">Skills</a>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav_links">Projects</a>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav_links">contact</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="about">
+    <section id="home">
       <div class="section-first">
         <div class="inside-container">
-          <h2>
-            <span class="letter-a">A</span>bout
-            <span class="about-txt-heading">M</span>e
-          </h2>
           <p>Hello World</p>
-          <h1><span class="letter-a">A</span>jith</h1>
+
+          <h1>
+            <span class="h22">I'm </span><span class="letter-a">A</span>jith
+          </h1>
           <span class="text-one">Full Stack webdeveloper</span>
 
           <p>
             i'm a web designer / developer , i have a passion for web designer
             and love to create for web and mobile devices
           </p>
-          <button class="primaryBTN">Contact Me</button>
+          <a href="#contact"><button class="primaryBTN">Contact Me</button></a>
         </div>
       </div>
       <div class="section-second">
         <img src="/profile.jpg" alt="" srcset="" />
       </div>
     </section>
+    <section id="about"></section>
     <section id="skills">
       <div class="">
         <h1><span class="letter-a">S</span>kills</h1>
@@ -79,9 +90,22 @@
         </div>
       </div>
     </section>
+    <section id="projects">
+      <div class=""><h1>Prjects</h1></div>
+      <div class="card">
+        <img src="profile.jpg" alt="Card Image" />
+        <div class="card-content">
+          <h3 class="card-title">Card Title</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <a href="#" class="card-button">Read More</a>
+        </div>
+      </div>
+    </section>
     <section id="contact">
       <div class="contact-form">
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
         <form action="#" method="post">
           <input type="text" name="name" placeholder="Name" required />
           <input type="email" name="email" placeholder="Email" required />
